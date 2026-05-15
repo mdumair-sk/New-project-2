@@ -1,0 +1,17 @@
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+.fleet/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+*.hprof
+desktop/src/main/resources/tray_icon.png

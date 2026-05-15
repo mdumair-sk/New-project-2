@@ -1,0 +1,7 @@
+-keep @kotlinx.serialization.Serializable class ** { *; }
+-keepclassmembers class **$Companion { *; }
+-keep class io.ktor.** { *; }
+-keep class com.fluxsync.core.model.PlatformSocket { *; }
+-keep class com.fluxsync.android.service.ForegroundTransferService { *; }
+-keep class * implements android.net.nsd.NsdManager$** { *; }
+-keepattributes *Annotation*,InnerClasses,EnclosingMethod
